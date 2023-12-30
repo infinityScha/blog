@@ -7,4 +7,4 @@ I'm a dedicated cotutelle PhD Candidate concurrently enrolled at Charles Univers
 
 ### Contact me
 
-[email@domain.com](mailto:itay.schachter@mail.huji.ac.il)
+itay.schachter at mail.huji.ac.il
