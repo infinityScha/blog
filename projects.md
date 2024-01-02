@@ -13,6 +13,8 @@ TBA!
 
 #### Lipid Nanodiscs Elasticity
 
+![Abstract Image](https://pubs.acs.org/cms/10.1021/acs.jctc.2c01054/asset/images/medium/ct2c01054_0005.gif)
+
 - **Description:** Through molecular simulations and continuum elastic theory, I've investigated the elastic properties of lipid nanodiscs, nanometric bilayer patches enveloped by membrane scaffolding proteins (MSPs). Employed a computational approach, based on molecular dynamics simulations, to quantify bending rigidity (KC) and tilt modulus (κt) on a local scale. The study also incorporated a continuum elastic theory, considering lipid bending, tilting, and area deformations, to analyze the nanodisc shape. Results revealed that nanodiscs exhibit unique material properties compared to infinite bilayers of corresponding lipid composition, showing higher stiffness and spatial variations in moduli.
 
 - **Elastic Theory:**
@@ -26,6 +28,8 @@ TBA!
 - **Publications:** [here](https://pubs.acs.org/doi/full/10.1021/acs.jctc.2c01054) and [here](https://pubs.acs.org/doi/10.1021/acs.jpcb.0c03374).
 
 #### The Two Faces of the Lo Phase
+
+![Abstract Image](https://pubs.acs.org/cms/10.1021/acs.jpclett.1c03712/asset/images/medium/jz1c03712_0005.gif)
 
 - **Description:** Investigated the structural characteristics of the liquid-ordered (Lo) lipid phase in model membranes through molecular simulations. Identified and characterized small, mostly hexagonally packed lipid clusters within the Lo phase, which are rigid in room temperature. These clusters undergo melting upon heating, and notably, this transition occurs in proximity to physiological conditions, suggesting its potential biophysiological significance.
 
