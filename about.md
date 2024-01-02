@@ -8,6 +8,3 @@ I'm a dedicated cotutelle PhD Candidate concurrently enrolled at Charles Univers
 ### Contact me
 
 itay.schachter at mail.huji.ac.il
-
-<div class="badge-base LI-profile-badge" data-locale="en_US" data-size="medium" data-theme="light" data-type="HORIZONTAL" data-vanity="itay-schachter" data-version="v1"><a class="badge-base__link LI-simple-link" href="https://cz.linkedin.com/in/itay-schachter?trk=profile-badge">Itay Schachter</a></div>
-              
