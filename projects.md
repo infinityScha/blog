@@ -45,4 +45,4 @@ TBA!
 
 - **Significance:** Demonstrated that a single-component system comprising point particles with anisotropic "quasi-dipole" interactions undergoes a glass transition when the interaction strength is sufficiently high. This observation could have implications for applications in materials science.
 
-- **Resulting thesis:** [here](https://pubs.acs.org/doi/full/10.1021/acs.jpclett.1c03712).
+- **Resulting thesis:** [here]([https://pubs.acs.org/doi/full/10.1021/acs.jpclett.1c03712](https://raw.githubusercontent.com/infinityScha/blog/master/amirim%20work.pdf)https://raw.githubusercontent.com/infinityScha/blog/master/amirim%20work.pdf).
