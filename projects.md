@@ -34,3 +34,11 @@ TBA!
 - **Description:** Investigated the structural characteristics of the liquid-ordered (Lo) lipid phase in model membranes through molecular simulations. Identified and characterized small, mostly hexagonally packed lipid clusters within the Lo phase, which are rigid in room temperature. These clusters undergo melting upon heating, and notably, this transition occurs in proximity to physiological conditions, suggesting its potential biophysiological significance.
 
 - **Publication:** [here](https://pubs.acs.org/doi/full/10.1021/acs.jpclett.1c03712).
+
+
+#### Exploring Glass Transition in Single Component Anisotropic Systems (for BSc. Hon. Thesis)
+<img src="images/amirim_proj.png" width="50%" alt="Project Image">
+
+- **Description:** Investigating the glass transition in anisotropic systems through constant pressure Monte Carlo simulations, with advanced simulation methods such as Replica Exchange - all coded from scratch. Focused on finding simple potentials which turns glass transition and understanding the interplay of kinetic and thermodynamic factors.
+
+- **Significance:** Demonstrated that a single-component system comprising point particles with anisotropic "quasi-dipole" interactions undergoes a glass transition when the interaction strength is sufficiently high. This observation could have implications for applications in materials science.
