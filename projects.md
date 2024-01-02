@@ -36,7 +36,7 @@ TBA!
 - **Publication:** [here](https://pubs.acs.org/doi/full/10.1021/acs.jpclett.1c03712).
 
 
-#### Exploring Glass Transition in Single Component Anisotropic Systems (for BSc. Hon. Thesis)
+#### "Simplifying" Glass Transition (for BSc. Hon. Thesis)
 <img src="/images/amirim_proj.png" width="50%" alt="Project Image">
 <img src="/images/amirim_proj2.png" width="50%" alt="Project Image">
 
