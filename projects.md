@@ -38,11 +38,11 @@ TBA!
 
 #### "Simplifying" Glass Transition (for BSc. Hon. Thesis)
 
-![Project Image](/images/amirim_proj.png "Project image")
-![Project Image](/images/amirim_proj2.png "Project image")
+<img src="https://github.com/infinityScha/blog/blob/master/images/amirim_proj.png?raw=true" width="50%" alt="Abstract Image">
+<img src="https://github.com/infinityScha/blog/blob/master/images/amirim_proj2.png?raw=true" width="50%" alt="Abstract Image">
 
 - **Description:** Investigating the glass transition in anisotropic systems through constant pressure Monte Carlo simulations, with advanced simulation methods such as Replica Exchange - all coded from scratch. Focused on finding simple potentials which turns glass transition and understanding the interplay of kinetic and thermodynamic factors.
 
 - **Significance:** Demonstrated that a single-component system comprising point particles with anisotropic "quasi-dipole" interactions undergoes a glass transition when the interaction strength is sufficiently high. This observation could have implications for applications in materials science.
 
-- **Resulting thesis:** 
+- **Resulting thesis:** [here](https://pubs.acs.org/doi/full/10.1021/acs.jpclett.1c03712).
