@@ -37,8 +37,9 @@ TBA!
 
 
 #### "Simplifying" Glass Transition (for BSc. Hon. Thesis)
-<img src="/images/amirim_proj.png" width="50%" alt="Project Image">
-<img src="/images/amirim_proj2.png" width="50%" alt="Project Image">
+
+![Project Image](/images/amirim_proj.png "Project image")
+![Project Image](/images/amirim_proj2.png "Project image")
 
 - **Description:** Investigating the glass transition in anisotropic systems through constant pressure Monte Carlo simulations, with advanced simulation methods such as Replica Exchange - all coded from scratch. Focused on finding simple potentials which turns glass transition and understanding the interplay of kinetic and thermodynamic factors.
 
