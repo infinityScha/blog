@@ -12,6 +12,7 @@ In this page, I will showcase my finished projects.
 
 <div class="center-image">
   <img id="gif-image" src="{{ '/images/projects/movie_budding.gif' | relative_url }}" class="responsive-image" alt="Abstract Image">
+  <p>Click on GIF to play/pause</p>
 </div>
 
 <script>
@@ -24,21 +25,6 @@ In this page, I will showcase my finished projects.
       } else {
         $(this).attr("src", "{{ '/images/projects/movie_budding.gif' | relative_url }}"); // Play (GIF)
       }
-    });
-  });
-</script>
-
-<a href="#" class="playbutton">Play</a>
-<a href="#" class="pausebutton">Pause</a>
-
-<script>
-  $(document).ready(function(){
-    $(".playbutton").click(function(){
-      $("#gif-image").attr("src", "{{ '/images/projects/movie_budding.gif' | relative_url }}"); // Re-enable GIF
-    });
-
-    $(".pausebutton").click(function(){
-      $("#gif-image").attr("src", "{{ '/images/projects/budded_state.png' | relative_url }}"); // Static image as placeholder
     });
   });
 </script>
