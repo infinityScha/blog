@@ -11,8 +11,8 @@ In this page, I will showcase my finished projects.
 <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
 
 <div class="center-image">
-  <img id="gif-image" src="{{ '/images/projects/movie_budding.gif' | relative_url }}" class="responsive-image" alt="Abstract Image">
-  <p>Click on GIF to play/pause</p>
+  <img id="gif-image" src="{{ '/images/projects/budded_state.png' | relative_url }}" class="responsive-image" alt="Abstract Image">
+  <p>Click the image to play/pause video</p>
 </div>
 
 <script>
