@@ -287,3 +287,38 @@ footer {
 // ... Otherwise it really bloats up the top of the CSS file and makes it difficult to find the start
 @import "highlights";
 @import "svg-icons";
+
+.center-image {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.center-image img {
+  display: inline-block;
+  border: 1px solid #ddd; /* Optional: Add a border to the images */
+  border-radius: 4px; /* Optional: Add rounded corners */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Optional: Add a subtle shadow */
+}
+
+.responsive-image {
+  width: 100%; /* Default to full width */
+  max-width: 600px; /* Maximum width for larger screens */
+  height: auto; /* Maintain aspect ratio */
+  border: 1px solid #ddd; /* Optional: Add a border to the images */
+  border-radius: 4px; /* Optional: Add rounded corners */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Optional: Add a subtle shadow */
+}
+
+/* Media query for larger screens */
+@media (min-width: 768px) {
+  .responsive-image {
+    width: 60%; /* Adjust width for larger screens */
+  }
+}
+
+/* Media query for smaller screens */
+@media (max-width: 767px) {
+  .responsive-image {
+    width: 100%; /* Adjust width for smaller screens */
+  }
+}
