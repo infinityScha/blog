@@ -30,6 +30,18 @@ body {
   width: 100%;
 }
 
+@media (min-width: 1200px) {
+  .container {
+    max-width: 1800px; /* Wider for large screens */
+  }
+}
+
+@media (max-width: 768px) {
+  .container {
+    max-width: 95%; /* Keep it narrower for smaller screens */
+  }
+}
+
 h1, h2, h3, h4, h5, h6 {
   font-family: $helveticaNeue;
   color: $darkerGray;
@@ -312,13 +324,14 @@ footer {
 /* Media query for larger screens */
 @media (min-width: 768px) {
   .responsive-image {
-    width: 60%; /* Adjust width for larger screens */
+    width: 60%; /* Increase the width to make images appear larger */
+    max-width: 1000px; /* Optional: Set a maximum width */
   }
 }
 
 /* Media query for smaller screens */
 @media (max-width: 767px) {
   .responsive-image {
-    width: 100%; /* Adjust width for smaller screens */
+    width: 100%; /* Keep full width for small screens */
   }
 }
