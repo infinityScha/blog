@@ -11,7 +11,7 @@ In this page, I will showcase my finished projects.
 <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
 
 <div class="center-image">
-  <img id="gif-image" src="{{ '/images/projects/budded_state.png' | relative_url }}" class="responsive-image" alt="Abstract Image">
+  <img id="gif-image" src="{{ '/images/projects/budded_state.png' | relative_url }}" class="responsive-image-abstract" alt="Abstract Image">
   <p>Click the image to play/pause video</p>
 </div>
 
@@ -38,7 +38,7 @@ In this page, I will showcase my finished projects.
 #### The Two Faces of the Lo Phase
 
 <div class="center-image">
-  <img src="https://pubs.acs.org/cms/10.1021/acs.jpclett.1c03712/asset/images/medium/jz1c03712_0005.gif"  class="responsive-image"  alt="Abstract Image">
+  <img src="https://pubs.acs.org/cms/10.1021/acs.jpclett.1c03712/asset/images/medium/jz1c03712_0005.gif"  class="responsive-image-abstract"  alt="Abstract Image">
 </div>
 
 - **Description:** Investigated the structural characteristics of the liquid-ordered (L<sub>o</sub>) lipid phase in model membranes through molecular simulations. Identified and characterized small, mostly hexagonally packed lipid clusters within the L<sub>o</sub> phase, which are rigid in room temperature. These clusters undergo melting upon heating, and notably, this transition occurs in proximity to physiological conditions, suggesting its potential biophysiological significance.
@@ -49,7 +49,7 @@ In this page, I will showcase my finished projects.
 #### Lipid Nanodiscs Elasticity
 
 <div class="center-image">
-  <img src="https://pubs.acs.org/cms/10.1021/acs.jctc.2c01054/asset/images/medium/ct2c01054_0005.gif"  class="responsive-image"  alt="Abstract Image">
+  <img src="https://pubs.acs.org/cms/10.1021/acs.jctc.2c01054/asset/images/medium/ct2c01054_0005.gif"  class="responsive-image-abstract"  alt="Abstract Image">
 </div>
 
 - **Initial Study:** Through molecular simulations and continuum elastic theory, I've investigated the elastic properties of lipid nanodiscs, nanometric bilayer patches enveloped by membrane scaffolding proteins (MSPs). Employed a computational approach, based on molecular dynamics simulations, to quantify bending rigidity (K<sub>C</sub>) and tilt modulus (κ<sub>t</sub>) locally. Results revealed that nanodiscs exhibit unique material properties compared to infinite bilayers of corresponding lipid composition, showing higher stiffness and spatial variations in moduli.
@@ -68,10 +68,10 @@ In this page, I will showcase my finished projects.
 #### "Simplifying" Glass Transition (for BSc. Hon. Thesis)
 
 <div class="center-image">
-  <img src="{{ '/images/projects/amirim_proj.png' | relative_url }}" class="responsive-image" alt="Abstract Image">
+  <img src="{{ '/images/projects/amirim_proj.png' | relative_url }}" class="responsive-image-abstract" alt="Abstract Image">
 </div>
 <div class="center-image">
-  <img src="{{ '/images/projects/amirim_proj2.png' | relative_url }}"  class="responsive-image"  alt="Abstract Image">
+  <img src="{{ '/images/projects/amirim_proj2.png' | relative_url }}"  class="responsive-image-abstract"  alt="Abstract Image">
 </div>
 
 - **Description:** Investigated the glass transition in anisotropic systems through constant pressure Monte Carlo simulations, with advanced simulation methods such as Replica Exchange - all coded from scratch. Focused on finding simple potentials which result in glass transition and understanding the interplay of kinetic and thermodynamic factors.

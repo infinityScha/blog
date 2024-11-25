@@ -18,15 +18,20 @@ html {
 }
 
 body {
-	background: $white;
-  font: 18px/1.4 $helvetica;
-  color: $darkGray;
+  /* background: $white; */
+  font: 18px/1.4 Helvetica, Arial, sans-serif;
+  /* color: $darkGray; */
+  background-image: url("{{ '/images/fractal_background_alpha.jpeg' | relative_url }}");
+  background-repeat: repeat-y; /* Ensures the background repeats */
+  background-size: 100%; /* Scales the image to cover the screen while maintaining its aspect ratio */
+  background-position: center; /* Centers the image */
+  background-color: rgba(255, 255, 255, 0.5);
 }
 
 .container {
   margin: 0 auto;
   max-width: 740px;
-  padding: 0 10px;
+  padding: 0 0px;
   width: 100%;
 }
 
@@ -164,11 +169,14 @@ img {
 
 .wrapper-masthead {
   margin-bottom: 50px;
+  width: 100%; /* Ensure it's full width */
+  max-width: 100%; /* Prevent any width restrictions */
 }
 
 .masthead {
-  padding: 20px 0;
-  border-bottom: 1px solid $lightGray;
+  padding: 20px 20px;
+  background-color: $lightGray; /* Matching background color with footer */
+  border-bottom: 1px solid #ddd;
 
   @include mobile {
     text-align: center;
@@ -253,15 +261,21 @@ nav {
 // .main
 //
 
+#main.container, .page {
+  padding: 0 3%; /* Adds 3% padding to the left and right of the container and article */
+}
+
 .posts > .post {
-  padding-bottom: 2em;
-  border-bottom: 1px solid $lightGray;
+  padding-bottom: 4em; /* Increase the bottom padding for more space */
+  margin-bottom: 2.5em; /* Increase space between posts */
+  border-bottom: 1px solid $lightGray; /* Lighter border for a softer separation */
 }
 
 .posts > .post:last-child {
-  padding-bottom: 1em;
-  border-bottom: none;
+  padding-bottom: 1.5em; /* Increase padding for the last post */
+  border-bottom: none; /* Remove border for the last post */
 }
+
 
 .post {
   blockquote {
@@ -324,7 +338,7 @@ footer {
 /* Media query for larger screens */
 @media (min-width: 768px) {
   .responsive-image {
-    width: 60%; /* Increase the width to make images appear larger */
+    width: 40%; /* Increase the width to make images appear larger */
     max-width: 1000px; /* Optional: Set a maximum width */
   }
 }
@@ -332,6 +346,30 @@ footer {
 /* Media query for smaller screens */
 @media (max-width: 767px) {
   .responsive-image {
+    width: 100%; /* Keep full width for small screens */
+  }
+}
+
+.responsive-image-abstract {
+  width: 100%; /* Default to full width */
+  max-width: 600px; /* Maximum width for larger screens */
+  height: auto; /* Maintain aspect ratio */
+  border: 1px solid #ddd; /* Optional: Add a border to the images */
+  border-radius: 4px; /* Optional: Add rounded corners */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Optional: Add a subtle shadow */
+}
+
+/* Media query for larger screens */
+@media (min-width: 768px) {
+  .responsive-image-abstract {
+    width: 35%; /* Increase the width to make images appear larger */
+    max-width: 1000px; /* Optional: Set a maximum width */
+  }
+}
+
+/* Media query for smaller screens */
+@media (max-width: 767px) {
+  .responsive-image-abstract {
     width: 100%; /* Keep full width for small screens */
   }
 }
