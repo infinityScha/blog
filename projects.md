@@ -33,7 +33,7 @@ In this page, I will showcase my finished projects.
 
 - **Significance:** Results provide insights into biological processes like viral budding and endocytosis, showcasing the importance of lipid sorting and heterogeneity in regulating vesicle dynamics.
 
-- **Preprint:** [here](https://doi.org/10.1101/2024.10.24.620077).
+- **Publication:** [here](https://doi.org/10.1016/j.bpj.2024.12.012) ([preprint](https://doi.org/10.1101/2024.10.24.620077)).
 
 #### The Two Faces of the Lo Phase
 
