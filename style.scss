@@ -362,7 +362,7 @@ footer {
 /* Media query for larger screens */
 @media (min-width: 768px) {
   .responsive-image-abstract {
-    width: 35%; /* Increase the width to make images appear larger */
+    width: 50%; /* Increase the width to make images appear larger */
     max-width: 1000px; /* Optional: Set a maximum width */
   }
 }
@@ -380,25 +380,20 @@ footer {
 }
 
 .responsive-video-abstract {
-  width: 100%;
-  max-width: 600px; /* match your images */
-  height: auto;
-  border: 1px solid #ddd; /* optional, same as images */
+  display: block;          /* ensure it respects margins */
+  margin: 0 auto 20px;     /* centers the video */
+  width: 100%;             /* scale to parent width */
+  max-width: 600px;        /* maximum size */
+  height: auto;            /* maintain aspect ratio */
+  border: 1px solid #ddd;
   border-radius: 4px;
-  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  box-shadow: 0 4px 8px rgba(0,0,0,0.1);
 }
 
-/* Media query for larger screens */
+/* optional: media query for larger screens */
 @media (min-width: 768px) {
   .responsive-video-abstract {
-    width: 35%; /* same as images for consistency */
-    max-width: 1000px;
+    max-width: 600px; /* shrink a bit so it doesn't get huge */
   }
 }
 
-/* Media query for smaller screens */
-@media (max-width: 767px) {
-  .responsive-video-abstract {
-    width: 100%;
-  }
-}
