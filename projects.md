@@ -6,6 +6,33 @@ permalink: /projects/
 In this page, I will showcase my finished projects.
 
 
+#### NarraGraph
+
+<div class="center-image"> 
+  <img src="{{ '/images/projects/landing-page-example.jpg' | relative_url }}" class="responsive-image-abstract" alt="NarraGraph landing page example"> 
+</div> 
+
+<div class="center-video"> 
+  <video id="story-video" class="responsive-video-abstract" autoplay muted playsinline controls> 
+    <source src="{{ '/images/projects/story-progression.mp4' | relative_url }}" type="video/mp4">
+    Your browser does not support the video tag. 
+  </video> 
+</div>
+
+- **Description:** NarraGraph is a tool for visualizing complex narratives, designed for writers, worldbuilders, and TTRPG game masters. It maps relationships between **characters, locations, and events over time**, enabling users to explore how stories evolve and interconnect. The interface emphasizes interactivity and clarity, providing a “graph-based” approach to narrative structure.
+
+- **Significance:** The tool supports iterative storytelling by allowing creators to identify inconsistencies, explore alternative plotlines, and gain a holistic view of story dynamics. Its design aims to reduce cognitive load when managing large or intricate narratives.
+
+- **Technology Stack:**
+  - **Frontend:** React, Next.js, Material-UI (MUI)  
+  - **Graph Visualization:** Cytoscape.js  
+  - **Backend:** FastAPI, Kùzu, SQLite  
+  - **Cloud Infrastructure:** Google Cloud Storage, Firebase, Google Compute Engine  
+  - **UI/UX:** Iteratively refined based on user testing and feedback  
+  - **Testing & Version Control:** pytest, GitHub  
+<br>
+- **Resulting Web App:** [narragraph.com](https://narragraph.com)
+
 #### Modeling Vesicle Budding Dynamics
 
 <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>

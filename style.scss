@@ -373,3 +373,32 @@ footer {
     width: 100%; /* Keep full width for small screens */
   }
 }
+
+.center-video {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.responsive-video-abstract {
+  width: 100%;
+  max-width: 600px; /* match your images */
+  height: auto;
+  border: 1px solid #ddd; /* optional, same as images */
+  border-radius: 4px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+/* Media query for larger screens */
+@media (min-width: 768px) {
+  .responsive-video-abstract {
+    width: 35%; /* same as images for consistency */
+    max-width: 1000px;
+  }
+}
+
+/* Media query for smaller screens */
+@media (max-width: 767px) {
+  .responsive-video-abstract {
+    width: 100%;
+  }
+}
